@@ -7,6 +7,9 @@ import ViteImages from 'vite-plugin-vue-images'
 export default defineConfig({
   server: { https: true },
   plugins: [vue() ,mkcert() ,ViteImages()],
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/portfolio/'
+    : '/',
   css: {
     preprocessorOptions: {
       sass: {
