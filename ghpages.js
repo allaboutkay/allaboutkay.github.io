@@ -5,7 +5,7 @@ const ghpages = require('gh-pages');
 
 const options = {
     branch: 'gh-pages',
-    repo: 'https://github.com/allaboutkay/portfolio.git' // project github repo
+    repo: 'https://github.com/allaboutkay/allaboutkay.github.io.git' // project github repo
 };
 
 const callback = err => {
