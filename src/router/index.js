@@ -25,7 +25,7 @@ const routes = [
 ];
 export default createRouter({
     history: createWebHashHistory(),
-    mode: "hash",
+    // mode: "hash",
     routes
 });
 
