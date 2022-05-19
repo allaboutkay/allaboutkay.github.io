@@ -443,9 +443,14 @@ section.work-detail
 
 section.work-experience
   position: relative
-  background: #E0E0E0
+  background: #E0E0E0 url(/src/assets/bg_exp.svg) no-repeat 99.2% center
+  background-attachment: fixed
+  background-size: auto 100%
   justify-content: end
   padding-bottom: 50px
+
+  +pad
+    background: #E0E0E0
 
 
 
@@ -602,6 +607,21 @@ section.talk2me
   min-height: 100vh
   height: auto
 
+  &.web-ui
+    background: #E0E0E0 url(/src/assets/bg_web.svg) no-repeat right center
+    background-attachment: fixed
+    background-size: auto 100%
+
+  &.graphic
+    background: #E0E0E0 url(/src/assets/bg_graphic.svg) no-repeat right center
+    background-attachment: fixed
+    background-size: auto 100%
+
+  &.logo
+    background: #E0E0E0 url(/src/assets/bg_logo.svg) no-repeat right center
+    background-attachment: fixed
+    background-size: auto 100%
+
 
 .sticky-bar
   +pad
@@ -693,26 +713,26 @@ section.talk2me
 
   a
     text-decoration: none
-    h2
-      position: relative
-      display: inline-block
-      color: #363636
-      font-size: 20px
-      font-weight: normal
-      text-transform: uppercase
-      line-height: 1.5
-      font-family: 'Poppins', sans-serif
+  h2
+    position: relative
+    display: inline-block
+    color: #363636
+    font-size: 20px
+    font-weight: normal
+    text-transform: uppercase
+    line-height: 1.5
+    font-family: 'Poppins', sans-serif
 
-      &:before  
-        content: ""
-        position: absolute
-        bottom: 0
-        left: 50%
-        transform: translateX(-50%)
-        width: 50%
-        height: 1px
-        background-color: #363636
-        transition: all .5s ease
+    &:before  
+      content: ""
+      position: absolute
+      bottom: 0
+      left: 50%
+      transform: translateX(-50%)
+      width: 50%
+      height: 1px
+      background-color: #363636
+      transition: all .5s ease
       
     
   &:hover h2:before
@@ -1491,7 +1511,7 @@ span.ico-plus-md
 
 #button-scrolltop
   position: fixed
-  top: 8%
+  bottom: 5%
   right: 55px
   width: vw(78px)
   height: vw(78px)

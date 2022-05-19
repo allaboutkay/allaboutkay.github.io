@@ -10,7 +10,9 @@ export default {
 
 
 <template>
-  <section class="section collection">
+  <section class="section collection" :class="{'web-ui': type === 'web',
+            'graphic': type === 'graphic',
+            'logo': type === 'logo'}">
     <div class="section-inner">
       <div class="sticky-bar">
         <div class="collection-bar">
@@ -33,7 +35,17 @@ export default {
             'desc-pl': type === 'web',
           }"
         >
-          <div class="collection-group">
+          <div class="collection-group" v-if="type !== 'web'">
+              <div class="image">
+                <img :src="item.imgUrl" :alt="item.name" />
+              </div>
+              <div class="desc">
+                <span class="ico-plus-sm"></span>
+                <h2>{{ item.name }}</h2>
+              </div>
+          </div>
+
+          <div class="collection-group" v-else>
             <router-link :to="`/detail/${type}/${index}`">
               <div class="image">
                 <img :src="item.imgUrl" :alt="item.name" />
