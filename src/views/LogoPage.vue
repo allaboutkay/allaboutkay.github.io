@@ -18,5 +18,5 @@ export default {
 
 <template>
   <PageTitleComponent title="LOGO" msg="design is in the details" />
-  <CollectionList :data="listData" type="logo_data" />
+  <CollectionList :data="listData" type="logo" />
 </template>

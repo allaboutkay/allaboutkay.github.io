@@ -19,5 +19,5 @@ export default {
     title="GRAPHIC"
     msg="from cool idea to insanely great product"
   />
-  <CollectionList :data="listData" type="graphic_data" />
+  <CollectionList :data="listData" type="graphic" />
 </template>

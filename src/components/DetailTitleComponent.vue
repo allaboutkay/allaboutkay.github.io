@@ -1,8 +1,13 @@
 <script>
 export default {
-  props: ["title"],
+  data() {
+    return {};
+  },
+  props: ["title", "scope", "imgUrl"],
   setup(props) {
     const title = props.title;
+    const scope = props.scope;
+    const imgUrl = props.imgUrl;
   },
 };
 </script>
@@ -16,7 +21,7 @@ export default {
       <img src="/src/assets/background-plus.svg" alt="" />
     </div>
     <div class="collection-image">
-      <img src="/src/assets/work-sample-xl.png" alt="" />
+      <img :src="imgUrl" :alt="title" />
     </div>
     <div class="section-main work-detail-main">
       <h2>{{ title }}</h2>
@@ -26,11 +31,7 @@ export default {
         <span class="ico-plus-md"></span
         ><span class="title-bottom-border">SCOPE</span>
       </h3>
-      <ol>
-        <li>SITE DESIGN</li>
-        <li>Art direction</li>
-        <li>RESPONSIVE</li>
-      </ol>
+      <div v-html="scope"></div>
     </div>
   </section>
 </template>

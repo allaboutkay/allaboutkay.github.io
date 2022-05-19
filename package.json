@@ -10,9 +10,13 @@
   },
   "dependencies": {
     "gsap": "^3.10.4",
+    "vivus": "^0.4.6",
     "vue": "^3.2.25",
+    "vue-loading-overlay": "^5.0.3",
+    "vue-plyr": "^7.0.0",
     "vue-router": "^4.0.13",
-    "vue-slide-up-down": "^2.0.1"
+    "vue-slide-up-down": "^2.0.1",
+    "vue-svg-draw": "^1.0.7"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",

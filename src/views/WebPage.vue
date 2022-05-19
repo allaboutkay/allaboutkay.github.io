@@ -24,5 +24,5 @@ export default {
 interactive design and modern technologies"
   />
 
-  <CollectionList :data="listData" type="web_data" />
+  <CollectionList :data="listData" type="web" />
 </template>

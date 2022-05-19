@@ -1,4 +1,127 @@
 
+  
+.plyr__controls
+  font-family: 'Poppins', sans-serif
+.plyr__control--overlaid
+  background: #000 !important
+.plyr--full-ui input[type=range]
+  color: #FA6A18 !important
+.plyr__menu__container .plyr__control[role=menuitemradio][aria-checked=true]::before
+  background: #FA6A18 !important
+.plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true]
+  background: #000 !important
+
+#loading-layer
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 40000
+  background: $darkbg url(../assets/bmp.png) repeat
+  display: none
+
+  
+  .center
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 100%
+
+  svg
+    max-width: 700px
+
+    path
+      fill: #363636
+
+    +pad
+      padding: 15px 30px
+
+// #line-h
+//  stroke-dasharray: 500
+//  stroke-dashoffset: 500
+//  animation: letterDraw .5s linear forwards
+
+// #line-e
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .5s linear .5s forwards
+
+// #line-y
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .5s linear 1s forwards
+
+// #line-1
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .2s linear 1s forwards
+
+// #line-i
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .5s linear 2s forwards
+
+// #line-2
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .2s linear 2s forwards
+
+// #line-m
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .5s linear 3s forwards
+
+// #line-k
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .5s linear 3.5s forwards
+
+// #line-a
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .5s linear 4s forwards
+
+// #line-y2
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .5s linear 4.5s forwards
+
+// #line-3
+//   stroke-dasharray: 500
+//   stroke-dashoffset: 500
+//   animation: letterDraw .5s linear 5s forwards
+
+
+// #mysvg path
+//   fill-opacity: 0
+//   transition: fill-opacity .5s
+//   fill: none
+//   stroke: #333
+
+// #mysvg.done path
+//   fill: #333
+//   fill-opacity: 1
+//   stroke: none
+
+
+// CSS
+@keyframes letterDraw
+  to
+    stroke-dashoffset: 0
+
+
+#line
+ fill: none
+ stroke-width: 2
+ stroke: #333
+ stroke-linecap: round
+ stroke-linejoin: round
+ clip-path: url('#clip-path')
+
+
+
 #navigation-overlay
   position: fixed
   top: 0
@@ -301,7 +424,7 @@ section.work-detail
     top: 50%
     margin-top: 20%
     left: 50%
-    margin-left: -70%
+    margin-left: -75%
     width: 500px
 
     img
@@ -779,6 +902,7 @@ section.talk2me
     left: 8%
     font-size: 70px
     width: 50%
+    text-transform: uppercase
 
     +desktop
       top: 10%
@@ -1070,7 +1194,8 @@ section.talk2me
   z-index: 5
 
   +smallDesktop
-    width: 55%
+    width: vw(380px,769px)
+    transform: translateX(-55%) translateY(-50%)
   
   +desktopL
     width: vw(820px)
@@ -1528,3 +1653,5 @@ span.ico-plus-md
 .nav-obj-5
   bottom: 57px
   left: 165px
+
+

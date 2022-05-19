@@ -15,26 +15,26 @@ export default {
       <div class="sticky-bar">
         <div class="collection-bar">
           <h2 class="collection-bar--title">All list</h2>
-          <div class="collection-navi">
+          <!-- <div class="collection-navi">
             <a href="#">POSTER</a>
             <a href="#">CARD</a>
             <a href="#">DM & PAMPHLET</a>
-          </div>
+          </div> -->
         </div>
       </div>
 
       <div class="group-row">
         <div
-          v-for="item in data"
+          v-for="(item, index) in data"
           class="group-col"
           :class="{
-            'sp3 md-sp2': type != 'graphic_data',
-            'sp2 md-sp2': type === 'graphic_data',
-            'desc-pl': type === 'web_data',
+            'sp3 md-sp2': type != 'graphic',
+            'sp2 md-sp2': type === 'graphic',
+            'desc-pl': type === 'web',
           }"
         >
           <div class="collection-group">
-            <router-link to="/detail">
+            <router-link :to="`/detail/${type}/${index}`">
               <div class="image">
                 <img :src="item.imgUrl" :alt="item.name" />
               </div>

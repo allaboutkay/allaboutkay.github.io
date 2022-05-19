@@ -1,3 +1,12 @@
+<script>
+export default {
+  props: ["videoUrl"],
+  setup(props) {
+    const videoUrl = props.videoUrl;
+  },
+};
+</script>
+
 <template>
   <section class="section collection">
     <div class="section-inner">
@@ -7,15 +16,20 @@
         </div>
       </div>
       <div class="collection-detail">
-        <a href="#" class="image"
+        <vue-plyr :options="options">
+          <video controls crossorigin playsinline>
+            <source size="720" :src="videoUrl" type="video/mp4" />
+          </video>
+        </vue-plyr>
+        <!-- <a href="#" class="image"
           ><img src="/src/assets/work-detail-samlple.png" alt=""
-        /></a>
-        <a href="" class="button-play">
+        /></a> -->
+        <!-- <a href="" class="button-play">
           <span class="ico-play"
             ><img src="/src/assets/ico-play.svg" alt=""
           /></span>
           <span class="ico-text">PLAY <br />VIDEO</span>
-        </a>
+        </a> -->
       </div>
     </div>
   </section>

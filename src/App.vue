@@ -2,6 +2,7 @@
 import HomePage from "./views/HomePage.vue";
 import ContactMe from "./components/ContactMe.vue";
 import Navigation from "./components/Navigation.vue";
+import Loading from "./components/Loading.vue";
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import Navigation from "./components/Navigation.vue";
     <div class="border-r-bar"></div>
     <div class="border-b-bar"></div>
     <div class="section-top-line"></div>
-
+    <Loading />
     <Navigation />
     <div id="button-scrolltop" ref="scroll2Top">
       <a href="#" @click.prevent="sroll2Top">
