@@ -16,11 +16,19 @@ export default {
         </div>
       </div>
       <div class="collection-detail">
-        <vue-plyr :options="options">
-          <video controls crossorigin playsinline>
-            <source size="720" :src="videoUrl" type="video/mp4" />
-          </video>
-        </vue-plyr>
+        <div id="demo-video">
+          <vue-plyr :options="options">
+            <video controls crossorigin playsinline autoplay muted>
+              <source size="720" :src="videoUrl" type="video/mp4" />
+            </video>
+          </vue-plyr>
+        </div>
+
+        <br><br>
+
+        <div id="demo-video">
+          <div style='position:relative; padding-bottom:calc(56.25% + 44px)'><iframe src='https://gfycat.com/ifr/DearestLinedAtlanticridleyturtle' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+        </div>
         <!-- <a href="#" class="image"
           ><img src="/src/assets/work-detail-samlple.png" alt=""
         /></a> -->

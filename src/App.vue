@@ -70,7 +70,7 @@ import Loading from "./components/Loading.vue";
     </div>
 
     <div class="top-title">
-      <h1>ALL ABOUT KAY</h1>
+      <router-link to="/"><h1>ALL ABOUT KAY</h1></router-link>
     </div>
 
     <router-view />

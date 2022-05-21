@@ -31,7 +31,8 @@ export default {
         <span class="ico-plus-md"></span
         ><span class="title-bottom-border">SCOPE</span>
       </h3>
-      <div v-html="scope"></div>
+      <ol v-html="scope">
+      </ol>
     </div>
   </section>
 </template>
