@@ -18,7 +18,7 @@ export default {
   },
   created() {
     this.item = datas[`${this.$route.params.type}_data`][this.$route.params.id];
-    this.title = this.item.name;
+    this.title = this.item.detailTitle;
     this.scope = this.item.detailScope;
     this.imgUrl = this.item.imgUrl2;
     this.videoUrl = this.item.videoUrl;
