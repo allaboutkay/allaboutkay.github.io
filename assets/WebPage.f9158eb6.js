@@ -1,2 +1,0 @@
-import{P as e,C as n,n as o}from"./CollectionList.76a4bd3f.js";import{d as s}from"./detail_data.03235bcc.js";import{o as i,c as r,d as t,F as c}from"./index.fa968ea5.js";import"./background-plus.3d2be363.js";const l={data(){return{navigation:o,listData:s.web_data}}},f=Object.assign(l,{setup(d){return(a,p)=>(i(),r(c,null,[t(e,{title:"WEB & UI",msg:`creating websites and web apps that incorporate
-interactive design and modern technologies`}),t(n,{data:a.listData,type:"web"},null,8,["data"])],64))}});export{f as default};
