@@ -133,6 +133,6 @@ export default {
     if (window.pageXOffset === 0) {
       refs.classList.add("show");
     }
-  },
+  }
 };
 </script>

@@ -519,7 +519,7 @@ section.work-experience
 
 section.talk2me
   position: relative
-  background: $darkbg
+  background: $darkbg url(/src/assets/bmp.png) repeat
 
 
 
@@ -1197,12 +1197,26 @@ section.talk2me
   bottom: 0
   left: 50%
 
+  img
+    display: block
+    width: 100%
+
   +desktopL
     width: 80%
     top:  50%
     left: 50%
     max-width: inherit
     transform: translateX(-45%) translateY(-45%)
+    bottom: auto
+
+  
+  +desktopL
+    width: 80%
+    top:  50%
+    left: 50%
+    max-width: inherit
+    transform: translateX(-45%) translateY(-45%)
+    bottom: auto
 
   +desktopXL
     width: 56%
@@ -1213,6 +1227,32 @@ section.talk2me
 
   +smallMobile
     bottom: -10%
+
+  // position: absolute
+  // z-index: 5
+  // width: 150%
+  // max-width: 920px
+  // transform: translateX(-45%)
+  // top: auto
+  // bottom: 0
+  // left: 50%
+
+  // +desktopL
+  //   width: 80%
+  //   top:  50%
+  //   left: 50%
+  //   max-width: inherit
+  //   transform: translateX(-45%) translateY(-45%)
+
+  // +desktopXL
+  //   width: 56%
+  //   min-width: 1090px
+  //   top:  50%
+  //   left: 50%
+  //   transform: translateX(-45%) translateY(-45%)
+
+  // +smallMobile
+  //   bottom: -10%
   
 .collection-image
   position: absolute

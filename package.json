@@ -9,6 +9,7 @@
     "deploy": "npm run build && node ./ghpages.js"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "gsap": "^3.10.4",
     "vivus": "^0.4.6",
     "vue": "^3.2.25",
