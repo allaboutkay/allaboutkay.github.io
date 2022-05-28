@@ -2,7 +2,7 @@
   <section class="section work-experience">
     <div class="work-exp-obj-1"></div>
     <div class="work-exp-obj-2"></div>
-    <div class="work-experience-list">
+    <div class="work-experience-list" data-aos-anchor=".work-experience-list" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000">
       <div class="collapse-group" :class="{ collapseShow: activeExps[0] }">
         <a href="#" @click.prevent.stop="expandCollapse($event, 0)"
           ><span class="ico-plus"></span><span class="title">Taiwan</span></a

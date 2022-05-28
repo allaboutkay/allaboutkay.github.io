@@ -15,7 +15,7 @@ export default {
           <h2 class="collection-bar--title">WORKS</h2>
         </div>
       </div>
-      <div class="collection-detail">
+      <div class="collection-detail" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000">
         <div id="demo-video">
           <vue-plyr :options="options">
             <video controls crossorigin playsinline autoplay muted>

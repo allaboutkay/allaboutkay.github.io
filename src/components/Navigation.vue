@@ -67,8 +67,8 @@
         </div>
         <div class="nav-contact-links">
           <ol>
-            <li><a href="#" target="_blank">Youtube</a></li>
-            <li><a href="#" target="_blank">Instagram</a></li>
+            <li><a href="https://www.youtube.com/channel/UCYkOKzj4p5Ea9cmyvgbqUow" target="_blank">Youtube</a></li>
+            <li><a href="https://www.instagram.com/kayxiedesigns/" target="_blank">Instagram</a></li>
           </ol>
         </div>
       </div>

@@ -35,7 +35,7 @@ export default {
             'desc-pl': type === 'web',
           }"
         >
-          <div class="collection-group" v-if="type !== 'web'">
+          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-if="type !== 'web'">
               <div class="image">
                 <img :src="item.imgUrl" :alt="item.name" />
               </div>
@@ -45,7 +45,7 @@ export default {
               </div>
           </div>
 
-          <div class="collection-group" v-else>
+          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-else>
             <router-link :to="`/detail/${type}/${index}`">
               <div class="image">
                 <img :src="item.imgUrl" :alt="item.name" />

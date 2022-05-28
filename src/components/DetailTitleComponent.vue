@@ -24,14 +24,14 @@ export default {
       <img :src="imgUrl" :alt="title" />
     </div>
     <div class="section-main work-detail-main">
-      <h2>{{ title }}</h2>
+      <h2 data-aos-anchor=".work-detail" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000">{{ title }}</h2>
     </div>
     <div class="work-detail-desc">
-      <h3>
+      <h3 data-aos-anchor=".work-detail" data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000">
         <span class="ico-plus-md"></span
         ><span class="title-bottom-border">SCOPE</span>
       </h3>
-      <ol v-html="scope">
+      <ol v-html="scope" data-aos-anchor=".work-detail" data-aos-delay="400" data-aos="fade-up" data-aos-duration="1000">
       </ol>
     </div>
   </section>

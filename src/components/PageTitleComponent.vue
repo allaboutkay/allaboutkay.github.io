@@ -17,8 +17,8 @@ export default {
       <img src="/src/assets/background-plus.svg" alt="" />
     </div>
     <div class="section-main top-banner-main">
-      <h2>{{ title }}</h2>
-      <p>{{ msg }}</p>
+      <h2 data-aos-anchor=".top-banner" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000">{{ title }}</h2>
+      <p data-aos-anchor=".top-banner" data-aos-delay="200" data-aos="fade-up" data-aos-duration="1000">{{ msg }}</p>
     </div>
   </section>
 </template>
