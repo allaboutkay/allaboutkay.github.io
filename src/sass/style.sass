@@ -13,6 +13,14 @@
 .plyr--video .plyr__control.plyr__tab-focus, .plyr--video .plyr__control:hover, .plyr--video .plyr__control[aria-expanded=true]
   background: #000 !important
 
+.fade-enter-active, .fade-leave-active 
+  transition: opacity 1s ease
+
+
+.fade-enter, .fade-leave-to 
+    opacity: 0
+
+
 #loading-layer
   position: fixed
   top: 0
@@ -33,12 +41,18 @@
 
   svg
     max-width: 700px
-
-    path
-      fill: #363636
-
+    
     +pad
       padding: 15px 30px
+
+@keyframes fill 
+    to
+      fill: #363636
+      stroke: transparent
+
+@keyframes offset
+    to
+      stroke-dashoffset: 0
 
 // #line-h
 //  stroke-dasharray: 500

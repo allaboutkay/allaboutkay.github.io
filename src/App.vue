@@ -6,7 +6,7 @@ import Loading from "./components/Loading.vue";
 </script>
 
 <template>
-  <div id="wrapper">
+  <div id="wrapper" :class="isLoading">
     <div class="border-t-bar"></div>
     <div class="border-l-bar"></div>
     <div class="border-r-bar"></div>
@@ -81,7 +81,9 @@ import Loading from "./components/Loading.vue";
 <script>
 export default {
   data() {
-    return {};
+    return {
+      isLoading: false,
+    };
   },
   methods: {
     scrollDownHandler() {
