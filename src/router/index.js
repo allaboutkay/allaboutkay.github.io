@@ -28,6 +28,9 @@ const routes = [
 export default createRouter({
     history: createWebHashHistory(),
     // mode: "hash",
-    routes
+    routes,
+    scrollBehavior(to, from, savedPosition) {
+      return { top: 0 }
+    },
 });
 
