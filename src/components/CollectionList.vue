@@ -31,7 +31,6 @@ export default {
           </div> -->
         </div>
       </div>
-
       <div class="group-row">
         <div
           v-for="(item, index) in newList"
@@ -54,7 +53,7 @@ export default {
           </div>
 
           <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-else-if="type === 'web'">
-            <router-link :to="`/detail/${type}/${index}`">
+            <router-link :to="`/detail/${type}/${item.id}`">
               <div class="image">
                 <img :src="item.imgUrl" :alt="item.name" />
               </div>
