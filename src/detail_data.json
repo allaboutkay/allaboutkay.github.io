@@ -2,78 +2,87 @@
     "web_data":[
         {
             "type":1,
+            "status": true,
             "name": "WANTSHOW x MOSHI",
             "detailTitle": "WANTSHOW x MOSHI LANDING PAGE",
             "imgUrl":"/web/web_1.png",
             "imgUrl2":"/web/2x/web_1.png",
-            "videoUrl":"https://thumbs.gfycat.com/ImpressionableGreenCrownofthornsstarfish.mp4",
+            "videoUrl":"https://giant.gfycat.com/ImpressionableGreenCrownofthornsstarfish.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "MOSHI CAFE",
             "detailTitle": "MOSHI CAFE LANDING PAGE",
             "imgUrl":"/web/web_2.png",
             "imgUrl2":"/web/2x/web_2.png",
-            "videoUrl":"https://thumbs.gfycat.com/MeanTameDogwoodtwigborer-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/MeanTameDogwoodtwigborer.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "MOSHI | 2022",
             "detailTitle": "MOSHI | 2022 OFFICIAL WEBSITE",
             "imgUrl":"/web/web_3.png",
             "imgUrl2":"/web/2x/web_3.png",
-            "videoUrl":"https://thumbs.gfycat.com/UnselfishCriminalAlaskajingle-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/UnselfishCriminalAlaskajingle.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "MOSHI member APP",
             "detailTitle": "MOSHI MEMBER APP",
             "imgUrl":"/web/web_4.png",
             "imgUrl2":"/web/2x/web_4.png",
-            "videoUrl":"https://thumbs.gfycat.com/BoringMealyKoala-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/BoringMealyKoala.mp4",
             "detailScope":"<li>UI/UX DESIGN</li> <li>ART DIRECTION</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "MOSHI product",
             "detailTitle": "MOSHI PRODUCT SITE",
             "imgUrl":"/web/web_5.png",
             "imgUrl2":"/web/2x/web_5.png",
-            "videoUrl":"https://thumbs.gfycat.com/WildTightDotterel-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/WildTightDotterel.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "HIROIA B2B APP",
             "detailTitle": "HIROIA B2B APP",
             "imgUrl":"/web/web_6.png",
             "imgUrl2":"/web/2x/web_6.png",
-            "videoUrl":"https://thumbs.gfycat.com/AnnualGargantuanIrishdraughthorse-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/AnnualGargantuanIrishdraughthorse.mp4",
             "detailScope":"<li>UI DESIGN</li><li>ART DIRECTION</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "SA GROUP | ENTRY",
             "detailTitle": "SA GROUP ENTRY SITE",
             "imgUrl":"/web/web_7.png",
             "imgUrl2":"/web/2x/web_7.png",
-            "videoUrl":"https://thumbs.gfycat.com/HardLividBetafish-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/HardLividBetafish.mp4",
             "detailScope":"<li>SITE DESIGN</li><li>ART DIRECTION</li><li>RESPONSIVE</li><li>PHOTO RETOUCH</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "MOSHI Campaign",
             "detailTitle": "MOSHI CAMPAIGN LANDING PAGE",
             "imgUrl":"/web/web_8.png",
             "imgUrl2":"/web/2x/web_8.png",
-            "videoUrl":"https://thumbs.gfycat.com/GlisteningAntiqueEyas-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/GlisteningAntiqueEyas.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "POPO QUESERSER",
             "detailTitle": "POPO QUESERSER LANDING PAGE",
             "imgUrl":"/web/web_9.png",
@@ -83,60 +92,67 @@
         },
         {
             "type":1,
+            "status": true,
             "name": "KOBAYASHI TOYOKO",
             "detailTitle": "KOBAYASHI TOYOKO LANDING PAGE",
             "imgUrl":"/web/web_10.png",
             "imgUrl2":"/web/2x/web_10.png",
-            "videoUrl":"https://thumbs.gfycat.com/TautExhaustedGeese-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/TautExhaustedGeese.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "MOSHI | 2020",
             "detailTitle": "MOSHI | 2020 OFFICIAL WEBSITE",
             "imgUrl":"/web/web_11.png",
             "imgUrl2":"/web/2x/web_11.png",
-            "videoUrl":"https://thumbs.gfycat.com/CoolFirstChick-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/CoolFirstChick.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "MOSHI B2B",
             "detailTitle": "MOSHI B2B WEBSITE",
             "imgUrl":"/web/web_12.png",
             "imgUrl2":"/web/2x/web_12.png",
-            "videoUrl":"https://thumbs.gfycat.com/ShadowyRedHadrosaurus-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/ShadowyRedHadrosaurus.mp4",
             "detailScope":"<li>SITE DESIGN</li><li>Art direction</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "MOSHI | 2022",
             "detailTitle": "MOSHI | 2022 OFFICIAL WEBSITE",
             "imgUrl":"/web/web_13.png",
             "imgUrl2":"/web/2x/web_13.png",
-            "videoUrl":"https://thumbs.gfycat.com/DearestLinedAtlanticridleyturtle-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/DearestLinedAtlanticridleyturtle.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "SAKABE | ENTRY",
             "detailTitle": "SAKABE ENTRY SITE",
             "imgUrl":"/web/web_14.png",
             "imgUrl2":"/web/2x/web_14.png",
-            "videoUrl":"https://thumbs.gfycat.com/FittingGeneralAtlanticsharpnosepuffer-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/FittingGeneralAtlanticsharpnosepuffer.mp4",
             "detailScope":"<li>SITE DESIGN</li><li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "Oshiri tan tei",
             "detailTitle": "OSHITI TAN TEI LANDING PAGE",
             "imgUrl":"/web/web_15.png",
             "imgUrl2":"/web/2x/web_15.png",
-            "videoUrl":"https://thumbs.gfycat.com/MassiveEuphoricHarborporpoise-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/MassiveEuphoricHarborporpoise.mp4",
             "detailScope":"<li>SITE DESIGN</li><li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": false,
             "name": "TOBAYASHI TOYOKO",
             "detailTitle": "YUAN YUAN STONE OFFICIAL WEBSITE",
             "imgUrl":"/web/web_16.png",
@@ -146,15 +162,17 @@
         },
         {
             "type":1,
+            "status": false,
             "name": "23 Public | Craft Beer",
             "detailTitle": "23 PUBLIC | CRAFT BEER OFFICIAL WEBSITE",
             "imgUrl":"/web/web_17.png",
             "imgUrl2":"/web/2x/web_17.png",
-            "videoUrl":"https://thumbs.gfycat.com/AggressiveUnripeJohndory-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/AggressiveUnripeJohndory.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li> <li>PHOTO RETOUCH</li>"
         },
         {
             "type":1,
+            "status": false,
             "name": "ST fitness",
             "detailTitle": "ST FITNESS LANDING PAGE",
             "imgUrl":"/web/web_18.png",
@@ -164,331 +182,367 @@
         },
         {
             "type":1,
+            "status": true,
             "name": "OH BEAR",
             "detailTitle": "OH BEAR OFFICIAL WEBSITE",
             "imgUrl":"/web/web_19.png",
             "imgUrl2":"/web/2x/web_19.png",
-            "videoUrl":"https://thumbs.gfycat.com/RegularPoliteArcticfox-mobile.mp4",
+            "videoUrl":"https://giant.gfycat.com/RegularPoliteArcticfox.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "BITO TAKESHI",
             "detailTitle": "BITO TAKESHI OFFICIAL WEBSITE",
             "imgUrl":"/web/web_20.png",
             "imgUrl2":"/web/2x/web_20.png",
-            "videoUrl":"https://thumbs.gfycat.com/ScrawnyVariableIndianabat.mp4",
+            "videoUrl":"https://giant.gfycat.com/ScrawnyVariableIndianabat.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li> <li>RESPONSIVE</li>"
         },
         {
             "type":1,
+            "status": true,
             "name": "payeasy",
             "detailTitle": "PAYEASY CAMPAIGN LANDING PAGE",
             "imgUrl":"/web/web_21.png",
             "imgUrl2":"/web/2x/web_21.png",
-            "videoUrl":"https://thumbs.gfycat.com/AlarmedBlondBobcat.mp4",
+            "videoUrl":"https://giant.gfycat.com/AlarmedBlondBobcat.mp4",
             "detailScope":"<li>SITE DESIGN</li> <li>ART DIRECTION</li>"
         }
-    ],
-    "graphic_data":[
-        {
-            "type":1,
-            "name": "AMWAY",
-            "detailTitle": "AMWAY",
-            "imgUrl":"/graphic/graphic_1.png",
-            "imgUrl2":"/graphic/2x/graphic_1.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "TOMITA",
-            "detailTitle": "TOMITA",
-            "imgUrl":"/graphic/graphic_2.png",
-            "imgUrl2":"/graphic/2x/graphic_2.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "AMWAY",
-            "detailTitle": "AMWAY",
-            "imgUrl":"/graphic/graphic_3.png",
-            "imgUrl2":"/graphic/2x/graphic_3.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "musicdance",
-            "detailTitle": "musicdance",
-            "imgUrl":"/graphic/graphic_4.png",
-            "imgUrl2":"/graphic/2x/graphic_4.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "Traveltobuy",
-            "detailTitle": "Traveltobuy",
-            "imgUrl":"/graphic/graphic_5.png",
-            "imgUrl2":"/graphic/2x/graphic_5.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "Traveltobuy",
-            "detailTitle": "Traveltobuy",
-            "imgUrl":"/graphic/graphic_6.png",
-            "imgUrl2":"/graphic/2x/graphic_6.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "TOMITA",
-            "detailTitle": "TOMITA",
-            "imgUrl":"/graphic/graphic_7.png",
-            "imgUrl2":"/graphic/2x/graphic_7.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "CHARTER SERVICE",
-            "detailTitle": "CHARTER SERVICE",
-            "imgUrl":"/graphic/graphic_8.png",
-            "imgUrl2":"/graphic/2x/graphic_8.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "NAKAJITZU",
-            "detailTitle": "NAKAJITZU",
-            "imgUrl":"/graphic/graphic_9.png",
-            "imgUrl2":"/graphic/2x/graphic_9.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "AMWAY",
-            "detailTitle": "AMWAY",
-            "imgUrl":"/graphic/graphic_10.png",
-            "imgUrl2":"/graphic/2x/graphic_10.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "YOGHURT BREAKFAST BISCUIT",
-            "detailTitle": "YOGHURT BREAKFAST BISCUIT",
-            "imgUrl":"/graphic/graphic_11.png",
-            "imgUrl2":"/graphic/2x/graphic_11.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "musicdance",
-            "detailTitle": "musicdance",
-            "imgUrl":"/graphic/graphic_12.png",
-            "imgUrl2":"/graphic/2x/graphic_12.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "23 Public | Craft Beer",
-            "detailTitle": "23 Public | Craft Beer",
-            "imgUrl":"/graphic/graphic_13.png",
-            "imgUrl2":"/graphic/2x/graphic_13.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "23 Public | Craft Beer",
-            "detailTitle": "23 Public | Craft Beer",
-            "imgUrl":"/graphic/graphic_14.png",
-            "imgUrl2":"/graphic/2x/graphic_14.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "NAKAJIZU",
-            "detailTitle": "NAKAJIZU",
-            "imgUrl":"/graphic/graphic_15.png",
-            "imgUrl2":"/graphic/2x/graphic_15.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "DLE-ERA",
-            "detailTitle": "DLE-ERA",
-            "imgUrl":"/graphic/graphic_16.png",
-            "imgUrl2":"/graphic/2x/graphic_16.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "HAKKA AFFAIRS COUNCIL",
-            "detailTitle": "HAKKA AFFAIRS COUNCIL",
-            "imgUrl":"/graphic/graphic_17.png",
-            "imgUrl2":"/graphic/2x/graphic_17.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "PROHEAlTH BIOINTELECT",
-            "detailTitle": "PROHEAlTH BIOINTELECT",
-            "imgUrl":"/graphic/graphic_18.png",
-            "imgUrl2":"/graphic/2x/graphic_18.png",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        }
       ],
-      "logo_data":[
-        {
-            "type":1,
-            "name": "GRAM#1",
-            "detailTitle": "GRAM#1",
-            "imgUrl":"/logo/logo_1.svg",
-            "imgUrl2":"/logo/logo_1.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "GRAM#2",
-            "detailTitle": "GRAM#2",
-            "imgUrl":"/logo/logo_2.svg",
-            "imgUrl2":"/logo/logo_2.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "CHARTER SERVICE",
-            "detailTitle": "CHARTER SERVICE",
-            "imgUrl":"/logo/logo_3.svg",
-            "imgUrl2":"/logo/logo_3.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "AMWAY",
-            "detailTitle": "AMWAY",
-            "imgUrl":"/logo/logo_4.svg",
-            "imgUrl2":"/logo/logo_4.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "AMWAY",
-            "detailTitle": "AMWAY",
-            "imgUrl":"/logo/logo_5.svg",
-            "imgUrl2":"/logo/logo_5.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "ENJOY SHARING",
-            "detailTitle": "ENJOY SHARING",
-            "imgUrl":"/logo/logo_6.svg",
-            "imgUrl2":"/logo/logo_6.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "AREA ONE",
-            "detailTitle": "AREA ONE",
-            "imgUrl":"/logo/logo_7.svg",
-            "imgUrl2":"/logo/logo_7.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "JINBAO AIJA",
-            "detailTitle": "JINBAO AIJA",
-            "imgUrl":"/logo/logo_8.svg",
-            "imgUrl2":"/logo/logo_8.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "ORENDA ORIGINAL",
-            "detailTitle": "ORENDA ORIGINAL",
-            "imgUrl":"/logo/logo_9.svg",
-            "imgUrl2":"/logo/logo_9.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "ORENDA HOODIE+",
-            "detailTitle": "ORENDA HOODIE+",
-            "imgUrl":"/logo/logo_10.svg",
-            "imgUrl2":"/logo/logo_10.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "BRINERGY",
-            "detailTitle": "BRINERGY",
-            "imgUrl":"/logo/logo_11.svg",
-            "imgUrl2":"/logo/logo_11.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "KITA NAGOYA",
-            "detailTitle": "KITA NAGOYA",
-            "imgUrl":"/logo/logo_12.svg",
-            "imgUrl2":"/logo/logo_12.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "AMWAY",
-            "detailTitle": "AMWAY",
-            "imgUrl":"/logo/logo_13.svg",
-            "imgUrl2":"/logo/logo_13.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "COO!HOUSE",
-            "detailTitle": "COO!HOUSE",
-            "imgUrl":"/logo/logo_14.svg",
-            "imgUrl2":"/logo/logo_14.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        },
-        {
-            "type":1,
-            "name": "TRAVEL IN TAIWAN",
-            "detailTitle": "TRAVEL IN TAIWAN",
-            "imgUrl":"/logo/logo_15.svg",
-            "imgUrl2":"/logo/logo_15.svg",
-            "videoUrl":"/mp4/demo.mp4",
-            "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
-        }
-      ]
+    "graphic_data":[
+    {
+        "type":1,
+        "status": true,
+        "name": "AMWAY",
+        "detailTitle": "AMWAY",
+        "imgUrl":"/graphic/graphic_1.png",
+        "imgUrl2":"/graphic/2x/graphic_1.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "TOMITA",
+        "detailTitle": "TOMITA",
+        "imgUrl":"/graphic/graphic_2.png",
+        "imgUrl2":"/graphic/2x/graphic_2.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "AMWAY",
+        "detailTitle": "AMWAY",
+        "imgUrl":"/graphic/graphic_3.png",
+        "imgUrl2":"/graphic/2x/graphic_3.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "musicdance",
+        "detailTitle": "musicdance",
+        "imgUrl":"/graphic/graphic_4.png",
+        "imgUrl2":"/graphic/2x/graphic_4.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "Traveltobuy",
+        "detailTitle": "Traveltobuy",
+        "imgUrl":"/graphic/graphic_5.png",
+        "imgUrl2":"/graphic/2x/graphic_5.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "Traveltobuy",
+        "detailTitle": "Traveltobuy",
+        "imgUrl":"/graphic/graphic_6.png",
+        "imgUrl2":"/graphic/2x/graphic_6.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "TOMITA",
+        "detailTitle": "TOMITA",
+        "imgUrl":"/graphic/graphic_7.png",
+        "imgUrl2":"/graphic/2x/graphic_7.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "CHARTER SERVICE",
+        "detailTitle": "CHARTER SERVICE",
+        "imgUrl":"/graphic/graphic_8.png",
+        "imgUrl2":"/graphic/2x/graphic_8.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "NAKAJITZU",
+        "detailTitle": "NAKAJITZU",
+        "imgUrl":"/graphic/graphic_9.png",
+        "imgUrl2":"/graphic/2x/graphic_9.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "AMWAY",
+        "detailTitle": "AMWAY",
+        "imgUrl":"/graphic/graphic_10.png",
+        "imgUrl2":"/graphic/2x/graphic_10.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "YOGHURT BREAKFAST BISCUIT",
+        "detailTitle": "YOGHURT BREAKFAST BISCUIT",
+        "imgUrl":"/graphic/graphic_11.png",
+        "imgUrl2":"/graphic/2x/graphic_11.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "musicdance",
+        "detailTitle": "musicdance",
+        "imgUrl":"/graphic/graphic_12.png",
+        "imgUrl2":"/graphic/2x/graphic_12.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "23 Public | Craft Beer",
+        "detailTitle": "23 Public | Craft Beer",
+        "imgUrl":"/graphic/graphic_13.png",
+        "imgUrl2":"/graphic/2x/graphic_13.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "23 Public | Craft Beer",
+        "detailTitle": "23 Public | Craft Beer",
+        "imgUrl":"/graphic/graphic_14.png",
+        "imgUrl2":"/graphic/2x/graphic_14.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "NAKAJIZU",
+        "detailTitle": "NAKAJIZU",
+        "imgUrl":"/graphic/graphic_15.png",
+        "imgUrl2":"/graphic/2x/graphic_15.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "DLE-ERA",
+        "detailTitle": "DLE-ERA",
+        "imgUrl":"/graphic/graphic_16.png",
+        "imgUrl2":"/graphic/2x/graphic_16.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "HAKKA AFFAIRS COUNCIL",
+        "detailTitle": "HAKKA AFFAIRS COUNCIL",
+        "imgUrl":"/graphic/graphic_17.png",
+        "imgUrl2":"/graphic/2x/graphic_17.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "PROHEAlTH BIOINTELECT",
+        "detailTitle": "PROHEAlTH BIOINTELECT",
+        "imgUrl":"/graphic/graphic_18.png",
+        "imgUrl2":"/graphic/2x/graphic_18.png",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    }
+    ],
+    "logo_data":[
+    {
+        "type":1,
+        "status": true,
+        "name": "GRAM#1",
+        "detailTitle": "GRAM#1",
+        "imgUrl":"/logo/logo_1.svg",
+        "imgUrl2":"/logo/logo_1.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "GRAM#2",
+        "detailTitle": "GRAM#2",
+        "imgUrl":"/logo/logo_2.svg",
+        "imgUrl2":"/logo/logo_2.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "CHARTER SERVICE",
+        "detailTitle": "CHARTER SERVICE",
+        "imgUrl":"/logo/logo_3.svg",
+        "imgUrl2":"/logo/logo_3.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "AMWAY",
+        "detailTitle": "AMWAY",
+        "imgUrl":"/logo/logo_4.svg",
+        "imgUrl2":"/logo/logo_4.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "AMWAY",
+        "detailTitle": "AMWAY",
+        "imgUrl":"/logo/logo_5.svg",
+        "imgUrl2":"/logo/logo_5.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "ENJOY SHARING",
+        "detailTitle": "ENJOY SHARING",
+        "imgUrl":"/logo/logo_6.svg",
+        "imgUrl2":"/logo/logo_6.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "AREA ONE",
+        "detailTitle": "AREA ONE",
+        "imgUrl":"/logo/logo_7.svg",
+        "imgUrl2":"/logo/logo_7.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "JINBAO AIJA",
+        "detailTitle": "JINBAO AIJA",
+        "imgUrl":"/logo/logo_8.svg",
+        "imgUrl2":"/logo/logo_8.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "ORENDA ORIGINAL",
+        "detailTitle": "ORENDA ORIGINAL",
+        "imgUrl":"/logo/logo_9.svg",
+        "imgUrl2":"/logo/logo_9.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "ORENDA HOODIE+",
+        "detailTitle": "ORENDA HOODIE+",
+        "imgUrl":"/logo/logo_10.svg",
+        "imgUrl2":"/logo/logo_10.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "BRINERGY",
+        "detailTitle": "BRINERGY",
+        "imgUrl":"/logo/logo_11.svg",
+        "imgUrl2":"/logo/logo_11.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "KITA NAGOYA",
+        "detailTitle": "KITA NAGOYA",
+        "imgUrl":"/logo/logo_12.svg",
+        "imgUrl2":"/logo/logo_12.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "AMWAY",
+        "detailTitle": "AMWAY",
+        "imgUrl":"/logo/logo_13.svg",
+        "imgUrl2":"/logo/logo_13.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "COO!HOUSE",
+        "detailTitle": "COO!HOUSE",
+        "imgUrl":"/logo/logo_14.svg",
+        "imgUrl2":"/logo/logo_14.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    },
+    {
+        "type":1,
+        "status": true,
+        "name": "TRAVEL IN TAIWAN",
+        "detailTitle": "TRAVEL IN TAIWAN",
+        "imgUrl":"/logo/logo_15.svg",
+        "imgUrl2":"/logo/logo_15.svg",
+        "videoUrl":"/mp4/demo.mp4",
+        "detailScope":"<li>SITE DESIGN</li><li>Art direction</li><li>RESPONSIVE</li>"
+    }
+    ]
 }

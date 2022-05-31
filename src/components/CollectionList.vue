@@ -35,9 +35,10 @@ export default {
             'desc-pl': type === 'web',
           }"
         >
-          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-if="type !== 'web'">
+          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-if="type !== 'web' && item.status">
+
               <div class="image">
-                <img :src="item.imgUrl" :alt="item.name" />
+                <img :data-img="item.imgUrl" :src="item.imgUrl" :alt="item.name" />
               </div>
               <div class="desc">
                 <span class="ico-plus-sm"></span>
@@ -45,7 +46,7 @@ export default {
               </div>
           </div>
 
-          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-else>
+          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-else-if="type === 'web' && item.status">
             <router-link :to="`/detail/${type}/${index}`">
               <div class="image">
                 <img :src="item.imgUrl" :alt="item.name" />
