@@ -5,6 +5,13 @@ export default {
     const data = props.data;
     const type = props.data;
   },
+  computed:{
+    newList:function(){
+      return this.data.filter(function (item) {
+			return item.status;
+		})
+    }
+  }
 };
 </script>
 
@@ -27,7 +34,7 @@ export default {
 
       <div class="group-row">
         <div
-          v-for="(item, index) in data"
+          v-for="(item, index) in newList"
           class="group-col"
           :class="{
             'sp3 md-sp2': type != 'graphic',
@@ -35,7 +42,7 @@ export default {
             'desc-pl': type === 'web',
           }"
         >
-          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-if="type !== 'web' && item.status">
+          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-if="type !== 'web'">
 
               <div class="image">
                 <img :data-img="item.imgUrl" :src="item.imgUrl" :alt="item.name" />
@@ -46,7 +53,7 @@ export default {
               </div>
           </div>
 
-          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-else-if="type === 'web' && item.status">
+          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-else-if="type === 'web'">
             <router-link :to="`/detail/${type}/${index}`">
               <div class="image">
                 <img :src="item.imgUrl" :alt="item.name" />

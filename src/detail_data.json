@@ -152,7 +152,7 @@
         },
         {
             "type":1,
-            "status": false,
+            "status": true,
             "name": "TOBAYASHI TOYOKO",
             "detailTitle": "YUAN YUAN STONE OFFICIAL WEBSITE",
             "imgUrl":"/web/web_16.png",
@@ -202,7 +202,7 @@
         },
         {
             "type":1,
-            "status": true,
+            "status": false,
             "name": "payeasy",
             "detailTitle": "PAYEASY CAMPAIGN LANDING PAGE",
             "imgUrl":"/web/web_21.png",
