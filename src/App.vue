@@ -12,6 +12,9 @@ import Loading from "./components/Loading.vue";
     <div class="border-r-bar"></div>
     <div class="border-b-bar"></div>
     <div class="section-top-line"></div>
+
+    <GooeyCursor :size="36" hover="a, button"/>
+
     <Loading />
     <Navigation />
     <div id="button-scrolltop" ref="scroll2Top">
@@ -72,13 +75,18 @@ import Loading from "./components/Loading.vue";
     <div class="top-title">
       <router-link to="/"><h1>ALL ABOUT KAY</h1></router-link>
     </div>
-
+    
+    
     <router-view />
     <ContactMe />
+
+    
+    
   </div>
 </template>
 
 <script>
+
 export default {
   data() {
     return {

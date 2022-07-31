@@ -9,12 +9,15 @@
     "deploy": "npm run build && node ./ghpages.js"
   },
   "dependencies": {
+    "@luxdamore/vue-cursor-fx": "^1.6.2",
     "aos": "^2.3.4",
     "gsap": "^3.10.4",
+    "lodash": "^4.17.21",
     "vivus": "^0.4.6",
-    "vue": "^3.2.25",
+    "vue": "^3.2.37",
     "vue-cool-lightbox": "^2.7.4",
     "vue-fancybox": "^1.0.3",
+    "vue-gooey-cursor": "^1.0.3",
     "vue-loading-overlay": "^5.0.3",
     "vue-plyr": "^7.0.0",
     "vue-router": "^4.0.13",
