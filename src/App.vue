@@ -3,6 +3,12 @@ import HomePage from "./views/HomePage.vue";
 import ContactMe from "./components/ContactMe.vue";
 import Navigation from "./components/Navigation.vue";
 import Loader from "./components/Loading.vue";
+
+import { useStore } from "vuex"
+
+const store = useStore()
+
+const state = store.state
 </script>
 
 <template>
@@ -76,7 +82,7 @@ import Loader from "./components/Loading.vue";
     </div>
 
     <transition name="loader">
-      <Loader v-if="this.$store.state.isLoading" :loaded="this.$store.state.isLoaded"></Loader>
+      <Loader v-if="state.isLoading" :loaded="state.isLoaded"></Loader>
     </transition>
     
     <router-view />
@@ -87,7 +93,6 @@ import Loader from "./components/Loading.vue";
 
 
 <script>
-
 export default {
   methods: {
     scrollDownHandler() {
@@ -139,6 +144,6 @@ export default {
     if (window.pageXOffset === 0) {
       refs.classList.add("show");
     }
-  } 
+  }
 }
 </script>
