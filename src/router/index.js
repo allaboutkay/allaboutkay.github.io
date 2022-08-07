@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-
+import store from './../loading'
 const routes = [
   {
     path: '/',
@@ -24,13 +24,31 @@ const routes = [
   
 ];
 
-
-export default createRouter({
-    history: createWebHashHistory(),
-    // mode: "hash",
-    routes,
-    scrollBehavior(to, from, savedPosition) {
-      return { top: 0 }
-    },
+const router = createRouter({
+  history: createWebHashHistory(),
+  // mode: "hash",
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  },
 });
+
+router.beforeEach(function (to, from, next) {
+  store.commit('setLoading', {isLoading: true})
+  store.commit('setLoaded', {isLoaded: false})
+  next()
+})
+
+router.afterEach(function (to) {
+  
+  setTimeout(function () {
+    store.commit('setLoaded', {isLoaded: true})
+  },800)
+
+  setTimeout(function(){
+    store.commit('setLoading', {isLoading: false})
+  },1200)
+})
+
+export default router;
 

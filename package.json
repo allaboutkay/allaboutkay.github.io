@@ -18,11 +18,12 @@
     "vue-cool-lightbox": "^2.7.4",
     "vue-fancybox": "^1.0.3",
     "vue-gooey-cursor": "^1.0.3",
-    "vue-loading-overlay": "^5.0.3",
     "vue-plyr": "^7.0.0",
     "vue-router": "^4.0.13",
     "vue-slide-up-down": "^2.0.1",
-    "vue-svg-draw": "^1.0.7"
+    "vue-svg-draw": "^1.0.7",
+    "vue3-loading-overlay": "^0.0.0",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",

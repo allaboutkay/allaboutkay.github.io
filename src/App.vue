@@ -2,11 +2,11 @@
 import HomePage from "./views/HomePage.vue";
 import ContactMe from "./components/ContactMe.vue";
 import Navigation from "./components/Navigation.vue";
-import Loading from "./components/Loading.vue";
+import Loader from "./components/Loading.vue";
 </script>
 
 <template>
-  <div id="wrapper" :class="isLoading">
+  <div id="wrapper">
     <div class="border-t-bar"></div>
     <div class="border-l-bar"></div>
     <div class="border-r-bar"></div>
@@ -15,7 +15,6 @@ import Loading from "./components/Loading.vue";
 
     <GooeyCursor :size="36" hover="a, button"/>
 
-    <Loading />
     <Navigation />
     <div id="button-scrolltop" ref="scroll2Top">
       <a href="#" @click.prevent="sroll2Top">
@@ -75,24 +74,21 @@ import Loading from "./components/Loading.vue";
     <div class="top-title">
       <router-link to="/"><h1>ALL ABOUT KAY</h1></router-link>
     </div>
-    
+
+    <transition name="loader">
+      <Loader v-if="this.$store.state.isLoading" :loaded="this.$store.state.isLoaded"></Loader>
+    </transition>
     
     <router-view />
     <ContactMe />
 
-    
-    
   </div>
 </template>
+
 
 <script>
 
 export default {
-  data() {
-    return {
-      isLoading: false,
-    };
-  },
   methods: {
     scrollDownHandler() {
       let scrollDownHandlerRefs = this.$refs.scroll2Top;
@@ -143,6 +139,6 @@ export default {
     if (window.pageXOffset === 0) {
       refs.classList.add("show");
     }
-  }
-};
+  } 
+}
 </script>

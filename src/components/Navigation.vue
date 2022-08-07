@@ -1,11 +1,13 @@
 <template>
-  <div id="button-hamburger" @click="openNavigation">
+  <div id="button-hamburger" @click="openNavigation();isShowNavigation()">
     <span></span>
     <span></span>
   </div>
+  
   <nav id="navigation" :class="{ shrik: showNav }">
+    <div id="nav-overlay"></div>
     <div id="navi-close">
-      <a href="#" @click="showNav = false">
+      <a href="#" @click.prevent="showNav = false; isShowNavigation()">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="50"
@@ -46,20 +48,20 @@
         <div class="nav-content">
           <ol>
             <li>
-              <router-link @click="showNav = false" to="/">ABOUT</router-link>
+              <router-link @click="showNav = false;isShowNavigation();" to="/">ABOUT</router-link>
             </li>
             <li>
-              <router-link @click="showNav = false" to="/web-and-ui"
+              <router-link @click="showNav = false;isShowNavigation();" to="/web-and-ui"
                 >WEB & UI</router-link
               >
             </li>
             <li>
-              <router-link @click="showNav = false" to="/graphic"
+              <router-link @click="showNav = false;isShowNavigation();" to="/graphic"
                 >GRAPHIC</router-link
               >
             </li>
             <li>
-              <router-link @click="showNav = false" to="/logo"
+              <router-link @click="showNav = false;isShowNavigation();" to="/logo"
                 >LOGO</router-link
               >
             </li>
@@ -86,6 +88,7 @@
 </template>
 
 <script>
+import gsap from "gsap";
 export default {
   data() {
     return {
@@ -96,7 +99,39 @@ export default {
     openNavigation() {
       this.showNav = !this.showNav;
     },
-  },
+
+    isShowNavigation(){
+      const fadeIn = gsap.timeline({paused: true});
+      fadeIn
+        .to("#navigation", {
+          duration: .5,
+          opacity: 1,
+          display:'block',
+          ease: "power3.inOut",
+        }).to("#nav-overlay", {
+          left: '100%',
+          ease: "power3.inOut",
+        },'-=.3');
+
+      const fadeOut = gsap.timeline({paused: true});
+      fadeOut.to("#nav-overlay", {
+          duration: .5,
+          left: 0,
+          ease: "power3.inOut",
+        }).to("#navigation", {
+          duration: .3,
+          opacity: 0,
+          display:'none',
+          ease: "power3.inOut",
+        },'-=.3')
+
+      if(this.showNav){
+        fadeIn.play();
+      }else{
+        fadeOut.play();
+      }
+    }
+  }
 };
 </script>
 
