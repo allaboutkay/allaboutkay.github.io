@@ -10,7 +10,7 @@ import GooeyCursor from 'vue-gooey-cursor'
 import store from './loading'
 
 export const app = createApp(App)
-app.AOS = new AOS.init();
+// app.AOS = new AOS.init();
 
 app.component('GooeyCursor', GooeyCursor)
 app.use(store).use(router).use(AOS).use(VuePlyr, {

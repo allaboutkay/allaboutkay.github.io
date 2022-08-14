@@ -1,3 +1,12 @@
+<script setup>
+import { useStore } from "vuex"
+import { useRouter } from 'vue-router'
+import { onMounted } from 'vue'
+const store = useStore()
+const state = store.state;
+
+</script>
+
 <template>
   <div id="button-hamburger" @click="openNavigation();isShowNavigation()">
     <span></span>
@@ -103,23 +112,23 @@ export default {
     isShowNavigation(){
       const fadeIn = gsap.timeline({paused: true});
       fadeIn
+        .set("#nav-overlay", {
+          left: 0,
+        })
         .to("#navigation", {
           duration: .5,
           opacity: 1,
           display:'block',
           ease: "power3.inOut",
         }).to("#nav-overlay", {
+          duration: 1,
           left: '100%',
-          ease: "power3.inOut",
+          ease: "ease.inOut",
         },'-=.3');
 
       const fadeOut = gsap.timeline({paused: true});
-      fadeOut.to("#nav-overlay", {
-          duration: .5,
-          left: 0,
-          ease: "power3.inOut",
-        }).to("#navigation", {
-          duration: .3,
+      fadeOut.to("#navigation", {
+          duration: .8,
           opacity: 0,
           display:'none',
           ease: "power3.inOut",

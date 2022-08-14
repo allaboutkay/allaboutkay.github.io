@@ -3,11 +3,9 @@ import HomePage from "./views/HomePage.vue";
 import ContactMe from "./components/ContactMe.vue";
 import Navigation from "./components/Navigation.vue";
 import Loader from "./components/Loading.vue";
-
+import PageLoader from "./components/PageLoading.vue";
 import { useStore } from "vuex"
-
 const store = useStore()
-
 const state = store.state
 </script>
 
@@ -19,7 +17,7 @@ const state = store.state
     <div class="border-b-bar"></div>
     <div class="section-top-line"></div>
 
-    <GooeyCursor :size="36" hover="a, button"/>
+    <GooeyCursor :size="36" :length="12" hover="a, button"/>
 
     <Navigation />
     <div id="button-scrolltop" ref="scroll2Top">
@@ -80,9 +78,15 @@ const state = store.state
     <div class="top-title">
       <router-link to="/"><h1>ALL ABOUT KAY</h1></router-link>
     </div>
-
+    
     <transition name="loader">
-      <Loader v-if="state.isLoading" :loaded="state.isLoaded"></Loader>
+      <div v-if="state.path === 'page'">
+        <PageLoader v-if="state.isLoading" :loaded="state.isLoaded"></PageLoader>
+      </div>
+      <div v-else>
+        <Loader v-if="state.isLoading" :loaded="state.isLoaded"></Loader>
+      </div>
+      
     </transition>
     
     <router-view />
@@ -132,6 +136,7 @@ export default {
     },
   },
   mounted() {
+    
     this.scrollDownHandler();
     let scrollDownHandlerRefs = this.$refs.scroll2Top;
     let windowHeight = window.innerHeight;

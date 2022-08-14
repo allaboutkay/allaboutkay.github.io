@@ -7,6 +7,7 @@ const store = createStore({
     return {
       isLoading: false,
       isLoaded: false,
+      path: '/',
     }
   },
   mutations: {
@@ -15,6 +16,10 @@ const store = createStore({
     },
     setLoaded(state,loaded){
       state.isLoaded = loaded.isLoaded;
+    },
+
+    setPath(state,path){
+      state.path = path.path;
     },
   }
 })

@@ -1,5 +1,6 @@
 
 <script>
+
 export default {
   props: ["loaded"],
   setup(props) {
@@ -8,9 +9,10 @@ export default {
 };
 </script>
 <template>
-  <div id="loading-layer" :class="loaded ? 'done': ''">
-		<div class="bg"></div>
+  <div id="loading-layer" class="homepage" :class="loaded ? 'done': ''">
+		<div class="bg"></div>		
 		<div class="done-overlay"></div>
+		
     <div class="center">
 			<svg id="layer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 736.97 142.9">
 				<g id="group">
@@ -67,20 +69,21 @@ export default {
 			
     </div>
   </div>
+
 </template>
 
-<style>
-#loading-layer.done .center,
-#loading-layer.done .bg{
+<style scoped>
+#loading-layer.homepage.done .center,
+#loading-layer.homepage.done .bg{
 	display: none;
 }
 
 #loading-layer.done .done-overlay{
 	opacity: 1;
-	animation: swipeLeft .8s ease forwards
+	animation: swipeLeft 1s ease forwards
 }
 
-#loading-layer.done .center{
+#loading-layer.homepage.done .center{
 	opacity: 0;
 }
 .done-overlay{
@@ -89,7 +92,7 @@ export default {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background: #363636;
+	background: #FA6A18;
 	z-index: 200;
 	opacity: 0;
 }
@@ -100,7 +103,7 @@ export default {
 
 @keyframes swipeLeft{
 	to{
-		opacity: 0;
+		/* opacity: 0; */
 		width: 0
 	}
 }
@@ -110,37 +113,37 @@ export default {
 	}
 }
 #hey-h {
-	animation: strokeOffset .6s  linear forwards;
+	animation: strokeOffset 2.5s  linear forwards;
 }
 #hey-e {
-	animation: strokeOffset .6s .1s linear forwards;
+	animation: strokeOffset 2.5s .3s linear forwards;
 }
 #hey-y {
-	animation: strokeOffset .6s .15s linear forwards;
+	animation: strokeOffset 2.5s .6s linear forwards;
 }
 #dot1 {
-	animation: strokeOffset .6s .2s linear forwards;
+	animation: strokeOffset 2.5s 1.2s linear forwards;
 }
 #i {
-	animation: strokeOffset .6s .25s linear forwards;
+	animation: strokeOffset 2.5s 1.8s linear forwards;
 }
 #dot2 {
-	animation: strokeOffset .6s .3s linear forwards;
+	animation: strokeOffset 2.5s 2.4s linear forwards;
 }
 #m {
-	animation: strokeOffset .6s .32s linear forwards;
+	animation: strokeOffset 2.5s 3s linear forwards;
 }
 #k {
-	animation: strokeOffset .6s .36s linear forwards;
+	animation: strokeOffset 2.5s 3.2s linear forwards;
 }
 #a {
-	animation: strokeOffset .5s .38s linear forwards;
+	animation: strokeOffset 2.5s 3.6s linear forwards;
 }
 #y {
-	animation: strokeOffset .5s .42s linear forwards;
+	animation: strokeOffset 2.5s 4s linear forwards;
 }
 #dash {
-	animation: strokeOffset .5s .45s linear forwards;
+	animation: strokeOffset 2.5s 4.2s linear forwards;
 }
 
 #group path{
