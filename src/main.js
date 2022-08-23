@@ -8,10 +8,11 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import GooeyCursor from 'vue-gooey-cursor'
 import store from './loading'
+import VueKinesis from "vue-kinesis";
 
 export const app = createApp(App)
 // app.AOS = new AOS.init();
-
+app.use(VueKinesis);
 app.component('GooeyCursor', GooeyCursor)
 app.use(store).use(router).use(AOS).use(VuePlyr, {
     plyr: {}

@@ -16,13 +16,18 @@
     "vivus": "^0.4.6",
     "vue": "^3.2.37",
     "vue-cool-lightbox": "^2.7.4",
+    "vue-custom-properties-parallax": "^0.2.7",
     "vue-fancybox": "^1.0.3",
     "vue-gooey-cursor": "^1.0.3",
+    "vue-kinesis": "^2.0.5",
+    "vue-parallax-js": "^0.2.3",
     "vue-plyr": "^7.0.0",
+    "vue-rellax": "^0.2.0",
     "vue-router": "^4.0.13",
     "vue-slide-up-down": "^2.0.1",
     "vue-svg-draw": "^1.0.7",
     "vue3-loading-overlay": "^0.0.0",
+    "vue3-parallax": "^0.1.4",
     "vuex": "^4.0.2"
   },
   "devDependencies": {

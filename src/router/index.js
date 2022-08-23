@@ -51,12 +51,12 @@ router.afterEach(function (to) {
     setTimeout(function () {
       store.commit('setLoaded', {isLoaded: true})
       import('aos').then(AOS => AOS.init());
-    },5000)
+    },3000)
 
     setTimeout(function(){
       store.commit('setLoading', {isLoading: false})
       
-    },6200)
+    },4000)
   }else{
     store.commit('setPath', {path: 'page'})
     setTimeout(function () {

@@ -1,5 +1,6 @@
 <template>
   <section class="section work-experience">
+    
     <div class="work-exp-obj-1"></div>
     <div class="work-exp-obj-2"></div>
     <div class="work-experience-list" data-aos-anchor=".work-experience-list" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000">

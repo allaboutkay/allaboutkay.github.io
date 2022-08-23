@@ -10,6 +10,7 @@ const state = store.state
 </script>
 
 <template>
+  
   <div id="wrapper">
     <div class="border-t-bar"></div>
     <div class="border-l-bar"></div>
@@ -93,6 +94,7 @@ const state = store.state
     <ContactMe />
 
   </div>
+  
 </template>
 
 

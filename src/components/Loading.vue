@@ -113,37 +113,37 @@ export default {
 	}
 }
 #hey-h {
-	animation: strokeOffset 2.5s  linear forwards;
+	animation: strokeOffset 1.5s  linear forwards;
 }
 #hey-e {
-	animation: strokeOffset 2.5s .3s linear forwards;
+	animation: strokeOffset 1.5s .3s linear forwards;
 }
 #hey-y {
-	animation: strokeOffset 2.5s .6s linear forwards;
+	animation: strokeOffset 1.5s .5s linear forwards;
 }
 #dot1 {
-	animation: strokeOffset 2.5s 1.2s linear forwards;
+	animation: strokeOffset 1.5s .8s linear forwards;
 }
 #i {
-	animation: strokeOffset 2.5s 1.8s linear forwards;
+	animation: strokeOffset 1.8s 1s linear forwards;
 }
 #dot2 {
-	animation: strokeOffset 2.5s 2.4s linear forwards;
+	animation: strokeOffset 1.8s 1.2s linear forwards;
 }
 #m {
-	animation: strokeOffset 2.5s 3s linear forwards;
+	animation: strokeOffset 1.8s 1.5s linear forwards;
 }
 #k {
-	animation: strokeOffset 2.5s 3.2s linear forwards;
+	animation: strokeOffset 1.8s 1.8s linear forwards;
 }
 #a {
-	animation: strokeOffset 2.5s 3.6s linear forwards;
+	animation: strokeOffset 1.8s 2s linear forwards;
 }
 #y {
-	animation: strokeOffset 2.5s 4s linear forwards;
+	animation: strokeOffset 1.8s 2.2s linear forwards;
 }
 #dash {
-	animation: strokeOffset 2.5s 4.2s linear forwards;
+	animation: strokeOffset 1.8s 2.4s linear forwards;
 }
 
 #group path{
