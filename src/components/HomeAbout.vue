@@ -7,14 +7,14 @@
 
     
       <div class="home-obj-1">
-        <kinesis-element :strength="-100" axis="y" type="translate">
+        <kinesis-element :strength="100" axis="y" type="translate">
           <img src="/src/assets/background-plus.svg" alt="" />
         </kinesis-element>
       </div>
     
     
     <div class="home-obj-2">
-      <kinesis-element :strength="100" axis="y" type="translate">
+      <kinesis-element :strength="-100" axis="y" type="translate">
         <img src="/src/assets/background-plus.svg" alt="" />
       </kinesis-element>
     </div>

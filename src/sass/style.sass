@@ -501,7 +501,14 @@ section.work-experience
   width: vw(256px)
   height: vw(210px)
   overflow: hidden
-  background: url('/src/assets/background-dots.svg') repeat-x
+
+  .bg
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: url('/src/assets/background-dots.svg') repeat-x
 
   +pad
     top: vw(20px,390px)
@@ -513,9 +520,16 @@ section.work-experience
 
 .work-exp-obj-2
   position: absolute
-  background: $org
   width: 100px
   height: 114px
+
+  .bg
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: $org
 
 
   +smallDesktop
@@ -585,7 +599,11 @@ section.talk2me
   left: 50%
   width: 100px
   height: 114px
-  background: $org
+
+  .bg
+    width: 100%
+    height: 114px
+    background: $org
 
   +smallDesktop
     margin-left: none
@@ -611,7 +629,11 @@ section.talk2me
   left: 50%
   width: 100px
   height: 114px
-  background: $org
+
+  .bg
+    width: 100%
+    height: 114px
+    background: $org
 
   +smallDesktop
     margin-left: none

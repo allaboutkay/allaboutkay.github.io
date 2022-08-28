@@ -1,8 +1,22 @@
 <template>
+  <kinesis-container event="scroll" duration="1200">
   <section class="section work-experience">
     
-    <div class="work-exp-obj-1"></div>
-    <div class="work-exp-obj-2"></div>
+    <kinesis-element :strength="300" axis="y" type="translate">
+      <div class="work-exp-obj-1">
+          <div class="bg"></div>
+      </div>
+    </kinesis-element>
+    
+    
+    
+    <kinesis-element :strength="-300" axis="y" type="translate">
+      <div class="work-exp-obj-2">
+        <div class="bg"></div>
+      </div>
+    </kinesis-element>
+    
+    
     <div class="work-experience-list" data-aos-anchor=".work-experience-list" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000">
       <div class="collapse-group" :class="{ collapseShow: activeExps[0] }">
         <a href="#" @click.prevent.stop="expandCollapse($event, 0)"
@@ -65,6 +79,7 @@
       </div>
     </div>
   </section>
+  </kinesis-container>
 </template>
 
 <script>

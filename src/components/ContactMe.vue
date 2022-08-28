@@ -1,8 +1,21 @@
 <template>
+  <kinesis-container event="scroll" duration="1200">
   <section class="section talk2me">
-      <div class="talk2me-obj-1"></div>
-      <div class="talk2me-obj-2"></div>
-      <div class="talk2me-obj-3"></div>
+        <div class="talk2me-obj-1"></div>
+    
+      
+        <div class="talk2me-obj-2">
+          <kinesis-element :strength="300" axis="y" type="translate">
+            <div class="bg"></div>
+          </kinesis-element>
+        </div>
+
+        <div class="talk2me-obj-3">
+          <kinesis-element :strength="-300" axis="y" type="translate">
+            <div class="bg"></div>
+          </kinesis-element>
+        </div>
+      
 
       <div class="section-main talk2me-content">
         <span>HEY</span>
@@ -17,4 +30,5 @@
         </div>
       </div>
   </section>
+  </kinesis-container>
 </template>
