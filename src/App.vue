@@ -18,7 +18,7 @@ const state = store.state
     <div class="border-b-bar"></div>
     <div class="section-top-line"></div>
 
-    <GooeyCursor :size="36" :length="12" hover="a, button"/>
+    <!-- <GooeyCursor :size="36" :length="12" hover="a, button"/> -->
 
     <Navigation />
     <div id="button-scrolltop" ref="scroll2Top">

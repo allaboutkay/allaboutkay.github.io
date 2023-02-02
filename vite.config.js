@@ -6,7 +6,8 @@ import ViteImages from 'vite-plugin-vue-images'
 // https://vitejs.dev/config/
 export default defineConfig({
   base: '/',
-  server: { https: true },
+  server: { https: true ,
+    host: '0.0.0.0'},
   plugins: [vue() ,mkcert() ,ViteImages()],
   css: {
     preprocessorOptions: {
