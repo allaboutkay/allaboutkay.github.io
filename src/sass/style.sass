@@ -52,7 +52,7 @@ body
     position: relative
     z-index: 2
 
-  svg
+  svg,img
     max-width: 700px
     
     +pad
@@ -537,7 +537,7 @@ section.work-experience
 
   +smallDesktop
     top: 60%
-    left: 20%
+    left: vw(-300px)
     margin-left: 0
     
 
@@ -548,7 +548,7 @@ section.work-experience
 
   +pad
     top: 77%
-    left: 7%
+    left: vw(-300px)
     margin-left: 0
     width: vw(43px,390px)
     height: vw(48px,390px)
@@ -558,6 +558,7 @@ section.work-experience
   flex: 50%
   max-width: 50%
   box-sizing: border-box
+  margin: 0 auto
 
   +smallDesktop
     flex: 55%
