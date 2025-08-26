@@ -61,7 +61,7 @@ const state = store.state;
             </li>
             <li>
               <router-link @click="showNav = false;isShowNavigation();" to="/web-and-ui"
-                >WEB & UI</router-link
+                >PROJECT</router-link
               >
             </li>
             <li>
@@ -78,7 +78,7 @@ const state = store.state;
         </div>
         <div class="nav-contact-links">
           <ol>
-            <li><a href="https://www.youtube.com/channel/UCYkOKzj4p5Ea9cmyvgbqUow" target="_blank">Youtube</a></li>
+            <!-- <li><a href="https://www.youtube.com/channel/UCYkOKzj4p5Ea9cmyvgbqUow" target="_blank">Linkedin</a></li> -->
             <li><a href="https://www.instagram.com/kayxiedesigns/" target="_blank">Instagram</a></li>
           </ol>
         </div>

@@ -20,8 +20,8 @@
     </div>
 
     <div class="section-main about-kay">
-      <h2 data-aos="fade-up" data-aos-duration="1000">Hey, I’m Kay —</h2>
-      <p  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">a web designer and graphic designer</p>
+      <h2 data-aos="fade-up" data-aos-duration="1000">Hi, It’s Kay</h2>
+      <p  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">shaping ideas into experiences you can click.</p>
       <p  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">more about me</p>
     </div>
   </section>

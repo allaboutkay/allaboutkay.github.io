@@ -77,7 +77,7 @@ const state = store.state
     </div>
 
     <div class="top-title">
-      <router-link to="/"><h1>ALL ABOUT KAY</h1></router-link>
+      <router-link to="/"><h1>Ctrl + Create</h1></router-link>
     </div>
     
     <transition name="loader">

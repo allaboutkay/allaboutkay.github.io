@@ -24,10 +24,7 @@
         >
         <div class="collapse-content">
           <ol>
-            <li>2020 / 電子產品設計品牌Moshi  網頁UI設計</li>
-            <li>2013 / 日本角色授權公司DLE-ERA 視覺設計</li>
-            <li>​​2012 / 華研音樂服裝品牌ORENDA 視覺設計</li>
-            <li>​​2008 / 復興商工廣告設計科 圖文傳播組畢業</li>
+            <li>I am from Taipei, Taiwan, and graduated from Fu-Hsin Trade & Arts School. During my studies, I received awards from the 2007 Acer Digital Creation Competition organized by National Chiao Tung University and the 2005 Malaysia World Youth Invention Exhibition. These creative experiences not only honed my design skills but also inspired my passion for visual design, digital art and UX design.</li>
           </ol>
         </div>
       </div>
@@ -37,43 +34,17 @@
         >
         <div class="collapse-content">
           <ol>
-            <li>2019 / 國際型設計公司Queserser 網頁設計</li>
-            <li>2019 / 名古屋經營會計專門學校 商業系畢業</li>
-            <li>2016 / 日本設計公司TRiPLE-E 視覺設計</li>
-            <li>2015 / YAMASA言語文化學院  AIJP畢業</li>
+            <li>In 2015, my experience working at a design company in Japan taught me the “craftsmanship spirit,” which means striving for perfection and mastering a skill to the highest level. This experience showed me how to work in a more organized way, pay closer attention to detail, and understand the differences between Japanese and Taiwanese work styles.</li>
           </ol>
         </div>
       </div>
       <div class="collapse-group" :class="{ collapseShow: activeExps[2] }">
         <a href="#" @click.prevent.stop="expandCollapse($event, 2)"
-          ><span class="ico-plus"></span><span class="title">License</span></a
-        >
+          ><span class="ico-plus"></span><span class="title">News</span></a>
         <div class="collapse-content">
           <ol>
-            <li>2018 / 日本語能力試驗N1</li>
-            <li>2018 / 日本商業簿記檢定3級</li>
-            <li>2018 / 日本文書設計技能檢定1級</li>
-            <li>2017 / 日本情報處理技能檢定2級</li>
-          </ol>
-        </div>
-      </div>
-      <div class="collapse-group" :class="{ collapseShow: activeExps[3] }">
-        <a href="#" @click.prevent.stop="expandCollapse($event, 3)"
-          ><span class="ico-plus"></span><span class="title">News</span></a
-        >
-        <div class="collapse-content">
-          <ol>
-            <li>2016 / YAMASA言語文化學院川柳俳句 金獎</li>
-            <li>2016 / CANDLE NIGHT插畫作品 日本岡崎展出</li>
-            <li>​2015 / 亞洲插畫祭插畫類作品 台北華山展出</li>
-            <li>​2015 / 香港國際授權展 原創作品 香港灣仔展出</li>
-            <li>​​2014 / VIVI 雜誌中文版 來自世界的酷女孩專訪</li>
-            <li>2013 / 微型素人攝影展</li>
-            <li>2012 / 99+高雄美麗島時尚來自自我 設計師聯​​展​​</li>
-            <li>​2007 / 第四屆交通大學宏碁數位創作比賽 佳作</li>
-            <li>​2007 / 全國學生創藝作品線上競賽 優勝</li>
-            <li>​2007 / 酷卡城市攝影展 信義誠品展出</li>
-            <li>2005 / 馬來西亞世界青少年發明展 甲等獎​​​​</li>
+            <li>At Cooler Master, I led the design and development of software that can control many PC hardware devices. I worked with teams in Taiwan, the United States, and Europe, and ran user tests in different markets to make sure the product met various user needs. I also handled the multilingual interface, making sure all users had a consistent and smooth experience. This project won the 2025 Red Dot Design Award and also received two media awards at Computex 2024:</li>
+            <li>* PC MR – Best of Computex 2024<br>* cgm Tech – Most Innovative Computer 2024</li>
           </ol>
         </div>
       </div>
@@ -86,7 +57,7 @@
 export default {
   data() {
     return {
-      activeExps: [false, false, false, false],
+      activeExps: [true, true, true, true],
       collapseHeight: [0, 0, 0, 0],
     };
   },

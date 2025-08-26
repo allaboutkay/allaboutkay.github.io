@@ -19,7 +19,7 @@ export default {
 
 <template>
   <PageTitleComponent
-    title="WEB & UI"
+    title="PROJECT"
     msg="creating websites and web apps that incorporate
 interactive design and modern technologies"
   />
