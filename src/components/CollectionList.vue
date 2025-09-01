@@ -1,6 +1,11 @@
 <script>
+import ProjectCards from "./ProjectCards.vue";
+
 export default {
-  props: ["data", "type"],
+  components: {
+    ProjectCards
+  },
+  props: ["data", "type", "projects"],
   setup(props) {
     const data = props.data;
     const type = props.data;
@@ -31,6 +36,9 @@ export default {
           </div> -->
         </div>
       </div>
+      
+      <!-- ProjectCards for web type -->
+      <ProjectCards v-if="type === 'web' && projects" :projects="projects" />
       <div class="group-row">
         <div
           v-for="(item, index) in newList"
@@ -52,7 +60,7 @@ export default {
               </div>
           </div>
 
-          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-else-if="type === 'web'">
+          <div class="collection-group" data-aos-delay="0" data-aos="fade-up" data-aos-duration="1000" v-else-if="type === 'web'" style="display: none;">
             <router-link :to="`/detail/${type}/${item.id}`">
               <div class="image">
                 <img :src="item.imgUrl" :alt="item.name" />
