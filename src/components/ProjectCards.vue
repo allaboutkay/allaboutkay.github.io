@@ -77,6 +77,18 @@ export default {
 
 .project-card {
   max-width: 455px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.project-card-image {
+  width: 100%;
+}
+
+.project-card-image img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 @media (max-width: 768px) {
@@ -93,7 +105,14 @@ export default {
 
 /* 文字樣式 */
 .project-name {
-  color: #363636;
+  background-image: linear-gradient(
+    to right,
+    #FF7423,
+    #FF7423 50%,
+    #363636 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
   font-size: 23px;
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
@@ -101,12 +120,40 @@ export default {
   margin: 0;
   font-weight: 300;
   margin-top: 10px;
+  position: relative;
+  display: inline-block;
+  padding: 2px 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-name::before {
+  content: '';
+  background: #FF7423;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1.6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover .project-name {
+  background-position: 0;
+}
+
+.project-card:hover .project-name::before {
+  width: 100%;
 }
 
 .project-hashtags {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  margin-top: 1px;
 }
 
 .hashtag {

@@ -60,7 +60,7 @@ const state = store.state;
               <router-link @click="showNav = false;isShowNavigation();" to="/">ABOUT</router-link>
             </li>
             <li>
-              <router-link @click="showNav = false;isShowNavigation();" to="/web-and-ui"
+              <router-link @click="showNav = false;isShowNavigation();" to="/project"
                 >PROJECT</router-link
               >
             </li>
